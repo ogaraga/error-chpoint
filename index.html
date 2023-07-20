@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="cart.css" />
+    <title>CHECKPOINT:PRE-CART SELECTION</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">CHECKPOINT-DOM</div>
+      <div class="menu">
+        <a href="index.html">CART</a>
+      </div>
+    </div>
+    <ul class="items">
+      <li>
+        <img
+          src="cake 2.jpg"
+          alt="cake"
+          class="imgs"
+          width="100"
+          height="100"
+        />
+        <h3>Event cake</h3>
+        <p>For partying, here it comes; delicious cake</p>
+        <figcaption id="amount">Price: $<b id="amnt">5.90</b></figcaption>
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-trash-can"></i>
+        <span id="btn">+</span>
+        <span id="num">0</span>
+        <span id="minus">-</span>
+      </li>
+      <li>
+        <img
+          src="Desktop.jpg"
+          alt="Desktop"
+          class="imgs"
+          width="100"
+          height="100"
+        />
+        <h3>Desktop-Laptop</h3>
+        <p>Desktop near to laptops</p>
+        <figcaption id="amount">Price: $<b id="amnt">50.00</b></figcaption>
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-trash-can"></i>
+        <span id="btn">+</span>
+        <span id="num">0</span>
+        <span id="minus">-</span>
+      </li>
+      <li>
+        <img src="BIRD.jpg" alt="bird" class="imgs" width="100" height="100" />
+        <h3>Magical bird</h3>
+        <p>This bird is rare and expensive; can send off enemies!</p>
+        <figcaption id="amount">Price: $<b id="amnt">100.50</b></figcaption>
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-trash-can"></i>
+        <span id="btn">+</span>
+        <span id="num">0</span>
+        <span id="minus">-</span>
+      </li>
+      <li>
+        <img
+          src="bulboff.gif"
+          alt="Bulb"
+          class="imgs"
+          width="100"
+          height="100"
+        />
+        <h3>Bulb</h3>
+        <p>Scientific Bulb for experimental purposes</p>
+        <figcaption id="amount">Price: $<b id="amnt">10.30</b></figcaption>
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-trash-can"></i>
+        <span id="btn">+</span>
+        <span id="num">0</span>
+        <span id="minus">-</span>
+      </li>
+      <div class="total">
+        <figcaption id="pricetot">
+          Total price: $<em id="priztot"></em>
+        </figcaption>
+      </div>
+    </ul>
+
+    <script src="cart.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  </body>
+</html>

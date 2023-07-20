@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: burlywood;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+.navbar {
+  background-color: darkslategrey;
+  width: 100vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  margin: auto;
+}
+.logo {
+  background-color: crimson;
+  background: linear-gradient(to right, red, crimson, tomato, teal, white);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: bolder;
+  margin: auto 15px;
+}
+.menu {
+  margin: auto 50px;
+  font-size: 20px;
+  display: block;
+  border: 2px solid white;
+  background-color: chocolate;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.menu a {
+  text-decoration: none;
+  color: whitesmoke;
+  opacity: 0.6;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+.menu a:hover {
+  color: aqua;
+  font-weight: bolder;
+}
+.items {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 15px;
+  row-gap: 15px;
+  margin: 20px;
+  place-content: center;
+}
+.items li {
+  list-style-type: none;
+  margin: auto 50px;
+}
+.items li h3 {
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: justify;
+}
+.items li p {
+  color: black;
+  font-size: 19px;
+}
+.items li #amount {
+  color: chocolate;
+  font-size: 21px;
+  font-weight: bolder;
+}
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+}
+#pricetot em {
+  border-radius: 10px;
+  border: 2px solid orangered;
+  padding: 1px 15px;
+  color: white;
+  background-color: black;
+}
+#pricetot {
+  color: orangered;
+  font-variant: small-caps;
+  width: 100%;
+  height: auto;
+}
+.items li .fa-heart {
+  color: aqua;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.items li.pluz {
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  font-size: 30px;
+  font-weight: bolder;
+  transition: 1s ease;
+}
+
+.items li .fa-heart.active {
+  color: green;
+  font-size: 25px;
+}
+.items li .fa-trash-can {
+  color: crimson;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.items li #btn {
+  color: black;
+  margin-right: 15px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.items li #minus {
+  color: black;
+  margin-right: 15px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.imgs.showColor {
+  border-radius: 50%;
+  background-color: gold;
+  box-shadow: 2px 3px 3px 4px green, -2px -3px 3px 4px aqua;
+  width: 50%;
+  height: 50%;
+}
+#num {
+  padding: 5px 20px;
+  width: 80px;
+  background-color: chocolate;
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+  margin: auto 10px;
+  outline: none;
+  border: none;
+}
